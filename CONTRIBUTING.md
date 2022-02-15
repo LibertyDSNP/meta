@@ -1,12 +1,51 @@
 # Project Liberty Participation and Contribution Guidelines
 
-These technical guidelines apply to all [Project
+Welcome! We’re thrilled you’re interested in our collaborative work to build a 
+more equitable civic architecture for the next generation of the web.
+
+As a relatively new project, we’re moving quickly in a 
+quasi-[”rocket ship”](https://github.com/OpenTechStrategies/open-source-archetypes/blob/master/arch-rocket-ship-to-mars.ltx) 
+mode to get our open source technologies to market. We encourage your contributions 
+and questions! We're doing our best to set a good foundation for new contributors, 
+but please excuse us if we aren’t immediately responsive or if you find 
+anything lacking… (for things you find lacking, please let us know by submitting 
+an Issue or alerting us in the [Forums](https://forums.projectliberty.io/)).
+
+We will continue to update these contribution guidelines. For now, you will see 
+a few placeholders (and see Issues below for submitting a documentation related 
+request).
+
+These contribution guidelines apply to all [Project
 Liberty](https://ProjectLiberty.io/) development, although a given
 sub-project may extend or override some of these guidelines to suit
 its specific needs.
 
-Please see also the [Code of Conduct](CODE_OF_CONDUCT.md), which applies
-everywhere.
+A Few Useful Resources 
+- General Questions + Support: [See the Forums](https://forums.projectliberty.io/)
+- [Project Liberty Whitepaper on DSNP](https://unfinished.com/wp-content/uploads/dsnp_whitepaper.pdf)
+- [DSNP Roadmap](https://spec.dsnp.org/#implementation-status)
+- [DSNP Dev Portal](https://www.dsnp.org/dev-portal-introduction/)
+- Submit a bug: see Submitting Issues below
+
+## Code of Conduct
+
+Our [Code of Conduct](CODE_OF_CONDUCT.md) applies across all Project Liberty
+development.
+
+## How to Set Up a Development Environment 
+(coming soon....)
+
+## Submitting Issues: Bugs, Features and Documentation
+
+First, ensure that the problem or feature idea was not already reported or 
+suggested by searching that repository's open issues.
+
+If you're unable to find a related open issue, open a new one using one of the 
+provided templates. Be sure to include a title and clear description, as much 
+relevant information as possible, and -- in the case of a bug -- a code sample 
+or an executable test case demonstrating the expected behavior that is not 
+occurring. 
+
 
 ## Standard Pull Request Model
 
@@ -14,16 +53,23 @@ We use the typical GitHub [pull request
 (PR)](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 development workflow.
 
-You're always welcome to open a PR in any repository here.  We
-encourage you to first post about your plans either in an issue ticket
-(an existing one or one you create) or in the [Discussion
-Forums](https://forums.projectliberty.io/).  That way you can get any
-important design feedback or suggestions before you start coding.
+You're welcome to open a PR in any repository here.  
 
-It's also okay to post with questions before you've decided whether or
-not to contribute a change.
+If it's trivial -- like fixing a spelling mistake or an off-by-one error -- simply
+create a PR.
 
-## Writing Commit Messages
+If it's non-trivial, we encourage you to first post about your plans in an Issue 
+(an existing one or a new one you create) so you can get useful design feedback or 
+suggestions before you start coding. Such PRs should reference its related Issue. 
+
+It's also okay to post questions -- to our 
+[Discussion Forums](https://forums.projectliberty.io/) or as an Issue -- before 
+you've decided whether or not to contribute a change!
+
+
+## Coding Conventions
+
+### Writing Commit Messages
 
 When composing a commit message, please use [these
 guidelines](https://chris.beams.io/posts/git-commit/).  The quick
@@ -55,14 +101,14 @@ commit messages with the corresponding diffs, and use that as a guide.
 issue tickets, please mention each ticket number in the commit
 message, like this: "issue #123".
 
-## Indentation and Whitespace
+### Indentation and Whitespace
 
 Please uses spaces not tabs for indentation, and avoid trailing
 whitespace.  If a language has a standard indentation amount, use that
 amount.  E.g., indent Javascript code by 2 spaces per level, Python
 code by 4 spaces, etc.
 
-## Keep Unrelated Changes Separate
+### Keep Unrelated Changes Separate
 
 Please put logically distinct changes into separate commits.  For
 example, this commit message -- although correctly formatted -- should
@@ -105,20 +151,20 @@ isn't a whitespace-only change: it's much easier for a reviewer to
 comprehend one change at a time than to try to comprehend multiple
 changes mixed together.
 
-## Change Documentation and Tests Together With Code
+### Change Documentation and Tests Together With Code
 
 Whenever possible, please include related documentation updates and
 test-suite updates directly in your change, i.e., in the same pull
 request as the core source code change.
+    
 
-## Fixing Security Vulnerabilities
+### Branch Management
 
-If your change fixes a security vulnerability that is not already
-public knowledge, please check with [the security
-team](mailto:security@projectliberty.io)
-before discussing the change in any public forums or posting a PR.
+#### Adding Branches
 
-### Expunging Branches Once They Are Merged
+Start branch names with the related issue number and title.
+
+#### Expunging Branches Once They Are Merged
 
 In Project Liberty repositories, once a branch has been merged to
 mainline we usually delete the branch.  This can be done via the
@@ -141,3 +187,14 @@ after merging), or from the command line:
 This only applies to branches in the repositories we manage, of
 course.  For your own repositories (including the ones that are cloned
 from ours), you decide your own deletion policy, of course.
+
+## How Code is Reviewed
+(coming soon)
+
+
+## Fixing Security Vulnerabilities
+
+As outlined in [SECURITY.md](https://github.com/LibertyDSNP/meta/blob/main/SECURITY.md),
+if you discover a security vulnerability that you feel is sensitive enough that 
+it should not be posted publicly, please 
+[report it](mailto:security@projectliberty.io).

@@ -1,26 +1,19 @@
 # Project Liberty Participation and Contribution Guidelines
 
-Welcome! We’re thrilled you’re interested in our collaborative work to build a 
-more equitable civic architecture for the next generation of the web.
-
-As a relatively new project, we’re moving quickly in a 
-quasi-[”rocket ship”](https://github.com/OpenTechStrategies/open-source-archetypes/blob/master/arch-rocket-ship-to-mars.ltx) 
-mode to get our open source technologies to market. We encourage your contributions 
-and questions! We're doing our best to set a good foundation for new contributors, 
-but please excuse us if we aren’t immediately responsive or if you find 
-anything lacking… (for things you find lacking, please let us know by submitting 
-an Issue or alerting us in the [Forums](https://forums.projectliberty.io/)).
-
-We will continue to update these contribution guidelines. For now, you will see 
-a few placeholders (and see Issues below for submitting a documentation related 
-request).
-
 These contribution guidelines apply to all [Project
 Liberty](https://ProjectLiberty.io/) development, although a given
-sub-project may extend or override some of these guidelines to suit
-its specific needs.
+sub-project repository may extend or override some of these guidelines
+to suit its specific needs.
 
-A Few Useful Resources 
+As a relatively new project, Project Liberty is moving quickly in a 
+quasi-["rocket ship"](https://opentechstrategies.com/archetypes-files/open-source-archetypes-v2.pdf#section*.10) 
+mode to get our open source technologies to market.  When you see
+something is missing, please let us know by submitting an issue in the
+appropriate repository or by alerting us in the
+[Forums](https://forums.projectliberty.io/)).
+
+A few useful resources:
+
 - General Questions + Support: [See the Forums](https://forums.projectliberty.io/)
 - [Project Liberty Whitepaper on DSNP](https://unfinished.com/wp-content/uploads/dsnp_whitepaper.pdf)
 - [DSNP Roadmap](https://spec.dsnp.org/#implementation-status)
@@ -33,18 +26,22 @@ Our [Code of Conduct](CODE_OF_CONDUCT.md) applies across all Project Liberty
 development.
 
 ## How to Set Up a Development Environment 
-(coming soon....)
+
+Instructions for setting up a development environment are specific to
+the particular repository/sub-project you're working with in Project
+Liberty, and should be provided there.  If you don't see such
+instructions, please file a ticket in that repository to let them know!
 
 ## Submitting Issues: Bugs, Features and Documentation
 
 First, ensure that the problem or feature idea was not already reported or 
-suggested by searching that repository's open issues.
+suggested, by searching the repository's open issues.
 
 If you're unable to find a related open issue, open a new one using one of the 
 provided templates. Be sure to include a title and clear description, as much 
 relevant information as possible, and -- in the case of a bug -- a code sample 
-or an executable test case demonstrating the expected behavior that is not 
-occurring. 
+or an executable test case demonstrating the behavior that actually
+occurs, contrasted with the behavior you expected.
 
 
 ## Standard Pull Request Model
@@ -53,18 +50,16 @@ We use the typical GitHub [pull request
 (PR)](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 development workflow.
 
-You're welcome to open a PR in any repository here.  
+For trivial chnges -- like fixing a spelling mistake or an off-by-one
+error -- simply create a PR.
 
-If it's trivial -- like fixing a spelling mistake or an off-by-one error -- simply
-create a PR.
-
-If it's non-trivial, we encourage you to first post about your plans in an Issue 
+For non-trivial changes, we encourage you to first post about your plans in an issue 
 (an existing one or a new one you create) so you can get useful design feedback or 
-suggestions before you start coding. Such PRs should reference its related Issue. 
+suggestions before you start coding.  All PRs should reference any related issues.
 
 It's also okay to post questions -- to our 
-[Discussion Forums](https://forums.projectliberty.io/) or as an Issue -- before 
-you've decided whether or not to contribute a change!
+[Discussion Forums](https://forums.projectliberty.io/) or in an issue
+ticket -- before you've decided whether or not to contribute a change!
 
 
 ## Coding Conventions

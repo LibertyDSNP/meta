@@ -31,15 +31,17 @@ or to file a GitHub Issue. If available and it's part of your workflow, include
 a project-specific email. 
 
 ## Contributing
-Note that contributions are welcomed and if there are any areas of particular need. 
-Also link to Project Liberty's overall [contribution guidelines](meta/CONTRIBUTING.md).
+We welcome contributions of code and documentation.  Please see
+[CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute.  
+
+*(That will usually link to the project's local `CONTRIBUTING.md`
+file, which provides any project-specific contribution instructions
+and links out to the [Project Liberty global
+CONTRIBUTING.md](https://github.com/LibertyDSNP/meta/blob/main/CONTRIBUTING.md)
+for general guidelines.  But if there are no project-specific
+contribution instructions, then just link directly to the [global
+CONTRIBUTING.md](https://github.com/LibertyDSNP/meta/blob/main/CONTRIBUTING.md)
+from here.)*
 
 ## Additional Resources
 Include links to helpful resources, further reading, etc.  
-
-## Acknowledgements
-Give thanks and love to those who have been helpful! For example, we acknowledge
-the fine folks at 
-[Drupal](https://www.drupal.org/docs/develop/managing-a-drupalorg-theme-module-or-distribution-project/documenting-your-project/readme-template_), 
-[GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes), and [Readme](https://www.makeareadme.com) in creating this 
-README template.

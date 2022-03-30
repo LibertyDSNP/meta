@@ -6,27 +6,17 @@
     assignees: ""
 ---
 
-
-Feature Description
----------------
+## Feature Description
 A description of of the feature you want to add
 
-
-Feature Justification
----------------
+## Feature Justification
 A reason for why this feature should be added
 
+## Acceptance Criteria
+- [ ] a list of testable things
+- [ ] that should exist or occur
+- [ ] if the feature is fully implemented
 
-Acceptance Criteria
----------------
-1. A list of steps
-2. to follow that
-3. should all be true
-4. if the feature is
-5. implemented properly
-
-
-Additional details / screenshot
----------------
+## Additional details / screenshot
 - Any supplemental pictures or material
 - ![Screenshot]()

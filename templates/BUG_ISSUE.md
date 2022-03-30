@@ -5,33 +5,26 @@
     labels: "bug"
     assignees: ""
 ---
-Issue description
----------------
+
+## Issue description
 A short description of bug and what you believe the intended outcome should have been.
 Thanks for reporting an issue!
 
-
-Reproduce Issue
----------------
+## How to reproduce the issue
 1. A list of steps
-2. to recreate the
-3. bug or issue
+2. Or a unit test if possible
+3. that reproduces the bug or issue
 
-Tech Versions
----------------
+## Tech Versions
 - Browser:
 - OS:
 - Wallet:
 
-Expected result
----------------
+## Expected result
 - A detailed description of what you expected to happen
 
-
-Actual result
----------------
+## Actual result
 - A detailed description of what actually happened
-
 
 Additional details / screenshot
 ---------------

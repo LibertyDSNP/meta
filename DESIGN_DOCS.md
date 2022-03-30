@@ -39,7 +39,8 @@ These sections should be in the order that they are described here.
     One might also say that the scope is also limited to developer testing, so it's not meant to be used in CI or a test environment such as a test blockchain network.
 * **Problem Statement**: The "why." A short summary of the issue(s) that this design solves.
     This doesn't have to be a technical problem, and it doesn't have to be a literal "problem." 
-    "Developer unhappiness", "user experience needs improvement", and  are also problems.
+    It could also be a necessary feature.
+    "Developer unhappiness", "user experience needs improvement", are also problems.
 * **Goals and Non-goals**:  what this solution is trying to do, and is also _not_ trying to do, in concrete terms.  Measurable goals are best.
 * **Glossary** (optional): if you think inline links to concepts are too distracting, include a glossary section.
     This can be links, text or both.

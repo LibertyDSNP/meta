@@ -1,5 +1,7 @@
 # Design Documents
 
+* [Design Doc Template](https://github.com/LibertyDSNP/meta/blob/main/templates/DESIGN_DOC_TEMPLATE.md)
+
 ## Purposes of this document
 * To describe what our design documents are for, their structure, and what goes in them.
 * To describe how DSNP Design Documents are produced and where they're published.

@@ -1,13 +1,26 @@
 # Design Documents
 
+* [Design Doc Template](https://github.com/LibertyDSNP/meta/blob/main/templates/DESIGN_DOC_TEMPLATE.md)
+
 ## Purposes of this document
 * To describe what our design documents are for, their structure, and what goes in them.
 * To describe how DSNP Design Documents are produced and where they're published.
 
-## What Is a Design Document?
-It's a document clearly describing a problem, a solution to that problem, and why we think the proposal is the right solution.
+## What is a Design Document?
+It's a document clearly describing a problem or feature, a solution for it, and why we think the proposal is the right solution.
+We'll use _"problem"_ here to broadly mean "anything that means we need to write some code."
 It has enough information to begin writing stories for implementing the solution in the document.
- 
+
+## When do we expect a Design Document?
+Generally we expect to see a Design Document when the solution is neither simple nor obvious to a developer with domain knowledge of the problem.
+If the solution will result in more than one reasonably-sized Issue, that is a sign a Design Document might be needed.
+
+**Examples that don't need a Design Document:** Major revisions to a README file, bug fixes (usually), implementing a login screen.
+
+**Examples that need a Design Document:** A serious security flaw that requires rewriting an entire library, a new API.  
+
+Always use your best judgment.
+
 ## Audience
 The audience for DSNP Design Documents is mainly DSNP developers from multiple organizations.
 We also expect other developers and technically savvy readers will read these documents. 
@@ -25,8 +38,9 @@ These sections should be in the order that they are described here.
     That means it won't be a separate package, and the code will be tailored for this repo.
     One might also say that the scope is also limited to developer testing, so it's not meant to be used in CI or a test environment such as a test blockchain network.
 * **Problem Statement**: The "why." A short summary of the issue(s) that this design solves.
-    This doesn't have to be a technical problem. 
-    "Developer unhappiness" or "improved user experience" are also problems.
+    This doesn't have to be a technical problem, and it doesn't have to be a literal "problem." 
+    It could also be a necessary feature.
+    "Developer unhappiness", "user experience needs improvement", are also problems.
 * **Goals and Non-goals**:  what this solution is trying to do, and is also _not_ trying to do, in concrete terms.  Measurable goals are best.
 * **Glossary** (optional): if you think inline links to concepts are too distracting, include a glossary section.
     This can be links, text or both.

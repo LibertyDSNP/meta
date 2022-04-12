@@ -5,14 +5,14 @@ Think what questions your audience might have and try to answer them in the READ
 ## Table of Contents (Optional)
 If the README is more than a couple of pages long, help readers easily find what they need by adding a table of contents, like the following:
 
-* [Overview](https://github.com/LibertyDSNP/meta#overview)
-* [Installation](https://github.com/LibertyDSNP/meta#installation)
-* [Dependencies/Requirements](https://github.com/LibertyDSNP/meta#dependenciesrequirements)
-* [Configuration](https://github.com/LibertyDSNP/meta#configuration)
-* [Examples](https://github.com/LibertyDSNP/meta#examples)
-* [Roadmap](https://github.com/LibertyDSNP/meta#roadmap)
-* [Support](https://github.com/LibertyDSNP/meta#support)
-* [Contributing](https://github.com/LibertyDSNP/meta#contributing)
+* [Overview](#overview)
+* [Installation](#installation)
+* [Dependencies/Requirements](#dependenciesrequirements)
+* [Configuration](#configuration)
+* [Examples](#examples)
+* [Roadmap](#roadmap)
+* [Support](#support)
+* [Contributing](#contributing)
 
 ## Overview 
 A brief description of the work and the intended audience. 

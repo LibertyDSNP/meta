@@ -2,14 +2,14 @@
 Please see the [Design Doc README](https://github.com/LibertyDSNP/meta/blob/main/DESIGN_DOCS.md) for details on what goes in each section.
 
 ## Table of Contents (Optional)
-* [Glossary](https://github.com/LibertyDSNP/meta#overview)
-* [Context and Scope](https://github.com/LibertyDSNP/meta#installation)
-* [Problem Statement](https://github.com/LibertyDSNP/meta#dependenciesrequirements)
-* [Goals and Non-Goals](https://github.com/LibertyDSNP/meta#configuration)
-* [Proposal](https://github.com/LibertyDSNP/meta#examples)
-* [Benefits and Risks](https://github.com/LibertyDSNP/meta#roadmap)
-* [Alternatives and Rationale](https://github.com/LibertyDSNP/meta#support)
-* [Additional Resources](https://github.com/LibertyDSNP/meta#contributing)
+* [Glossary](#glossary)
+* [Context and Scope](#context-and-scope)
+* [Problem Statement](#problem-statement)
+* [Goals and Non-Goals](#goals-and-non-goals)
+* [Proposal](#proposal)
+* [Benefits and Risks](#benefits-and-risks)
+* [Alternatives and Rationale](#alternatives-and-rationale)
+* [Additional Resources](#additional-resources)
 
 ## Glossary (Optional)
 * **term**: definition

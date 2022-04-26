@@ -32,6 +32,13 @@ the particular repository/sub-project you're working with in Project
 Liberty, and should be provided there.  If you don't see such
 instructions, please file a ticket in that repository to let them know!
 
+## DSNP Improvement Proposal (DIP) and DIP Process
+A DIP is any update that would materially change the DSNP specification, as opposed to simply fixing a spelling error. There is a pre-configured issue template for creating DIPs as part of the DSNP specification repository.
+
+As the DSNP protocol matures, we will create a DIP governance and aproval process that's appropriate to the evolving needs of the commmunity, following well-established open source development practices. For now, we simply discuss the merits of the suggested change and approve or disapprove based on a rough consensus. 
+
+
+
 ## Submitting Issues: Bugs, Features and Documentation
 
 First, ensure that the problem or feature idea was not already reported or 

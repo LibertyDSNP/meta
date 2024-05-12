@@ -16,8 +16,8 @@ A few useful resources:
 
 - General Questions + Support: [See the Forums](https://forums.projectliberty.io/)
 - [Project Liberty Whitepaper on DSNP](https://unfinished.com/wp-content/uploads/dsnp_whitepaper.pdf)
-- [DSNP Roadmap](https://spec.dsnp.org/#implementation-status)
-- [DSNP Dev Portal](https://www.dsnp.org/dev-portal-introduction/)
+- [DSNP Spec](https://spec.dsnp.org/)
+- [DSNP Introduction](https://dsnp.org/introducing-dsnp.html)
 - Submit a bug: see Submitting Issues below
 
 ## Code of Conduct
